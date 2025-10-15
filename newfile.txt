@@ -1,0 +1,16 @@
+created a new file 
+BRANCHES EXPLANATION
+
+git branch -a  -> lists all branches
+git branch    -> Shows only local branches
+git branch -r  -> Shows only remote branches
+git fetch --all -> Updates your local view of all remote branches
+git checkout branch-name	-> Switch to a branch
+git checkout -b new-branch origin/branch-name	-> Create a new local branch that tracks a remote one
+
+
+* main
+The * means this is your current active branch.
+
+git branch -d 	Delete a branch (after merge)
+git push origin 	Push a branch to remote (e.g., GitHub)
